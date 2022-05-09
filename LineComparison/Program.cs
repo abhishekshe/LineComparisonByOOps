@@ -9,22 +9,37 @@ namespace Line_Comparision_Problem
         {
             Console.WriteLine("Line Comparision Computation Program");
             List<double> lineLengths = new List<double>();
+            LineComparision lineCmp = new LineComparision();
+            double[] xPositions = { 0, 0 };
+            double[] yPositions = { 0, 0 };
             for (int lineNumber = 0; lineNumber < 2; lineNumber++)
             {
-                Console.WriteLine("Please enter the coordinates for 1st point seperated by commas");
-                string coordinates = Console.ReadLine();
-                string[] coordinatesArray = coordinates.Split(",");
-                double x = Convert.ToDouble(coordinatesArray[0]);
-                double y = Convert.ToDouble(coordinatesArray[1]);
-                Console.WriteLine("Please enter the coordinates for 2nd point seperated by commas");
-                coordinates = Console.ReadLine();
-                string[] coordinatesArray2 = coordinates.Split(",");
-                double x2 = Convert.ToDouble(coordinatesArray2[0]);
-                double y2 = Convert.ToDouble(coordinatesArray2[1]);
-                double length = Math.Sqrt(Math.Pow(x2 - x, 2) + Math.Pow(y2 - y, 2));
+                lineCmp.Coordinates(ref xPositions, ref yPositions);
+                double length = Math.Sqrt(Math.Pow(xPositions[1] - xPositions[0], 2) + Math.Pow(yPositions[1] - yPositions[0], 2));
                 Console.WriteLine($"Length of a line is {length}");
                 lineLengths.Add(length);
             }
+            lineCmp.EqualityCheck(lineLengths);
+
+        }
+    }
+    class LineComparision
+    {
+        public void Coordinates(ref double[] xPositions, ref double[] yPositions)
+        {
+           
+            for (int points = 1; points < 3; points++)
+            {
+                Console.WriteLine($"Please enter the coordinates for {points}th point seperated by commas");
+                string coordinates = Console.ReadLine();
+                string[] coordinatesArray = coordinates.Split(",");
+                xPositions[points - 1] = Convert.ToDouble(coordinatesArray[0]);
+                yPositions[points - 1] = Convert.ToDouble(coordinatesArray[1]);
+            }
+
+        }
+        public void EqualityCheck(List<double> lineLengths)
+        {
             if (lineLengths[0] == lineLengths[1])
             {
                 Console.WriteLine("Both Lines are Equal");
