@@ -27,10 +27,14 @@ namespace Line_Comparision_Problem
             }
             if (lineLengths[0] == lineLengths[1])
             {
-                Console.WriteLine("Lines are Equal");
+                Console.WriteLine("Both Lines are Equal");
+            }
+            else if (lineLengths[0] > lineLengths[1])
+            {
+                Console.WriteLine($"1st line is greater than 2nd line by {lineLengths[0] - lineLengths[1]}");
             }
             else
-                Console.WriteLine("Lines are not equal");
+                Console.WriteLine($"2nd line is greater than 1st line by {lineLengths[1] - lineLengths[0]}");
 
         }
     }
