@@ -1,0 +1,15 @@
+C:\Users\abhis\source\repos\LineComparisonOops\LineComparisonOops\bin\Debug\net6.0\LineComparisonOops.exe
+C:\Users\abhis\source\repos\LineComparisonOops\LineComparisonOops\bin\Debug\net6.0\LineComparisonOops.deps.json
+C:\Users\abhis\source\repos\LineComparisonOops\LineComparisonOops\bin\Debug\net6.0\LineComparisonOops.runtimeconfig.json
+C:\Users\abhis\source\repos\LineComparisonOops\LineComparisonOops\bin\Debug\net6.0\LineComparisonOops.dll
+C:\Users\abhis\source\repos\LineComparisonOops\LineComparisonOops\bin\Debug\net6.0\LineComparisonOops.pdb
+C:\Users\abhis\source\repos\LineComparisonOops\LineComparisonOops\obj\Debug\net6.0\LineComparisonOops.csproj.AssemblyReference.cache
+C:\Users\abhis\source\repos\LineComparisonOops\LineComparisonOops\obj\Debug\net6.0\LineComparisonOops.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\abhis\source\repos\LineComparisonOops\LineComparisonOops\obj\Debug\net6.0\LineComparisonOops.AssemblyInfoInputs.cache
+C:\Users\abhis\source\repos\LineComparisonOops\LineComparisonOops\obj\Debug\net6.0\LineComparisonOops.AssemblyInfo.cs
+C:\Users\abhis\source\repos\LineComparisonOops\LineComparisonOops\obj\Debug\net6.0\LineComparisonOops.csproj.CoreCompileInputs.cache
+C:\Users\abhis\source\repos\LineComparisonOops\LineComparisonOops\obj\Debug\net6.0\LineComparisonOops.dll
+C:\Users\abhis\source\repos\LineComparisonOops\LineComparisonOops\obj\Debug\net6.0\refint\LineComparisonOops.dll
+C:\Users\abhis\source\repos\LineComparisonOops\LineComparisonOops\obj\Debug\net6.0\LineComparisonOops.pdb
+C:\Users\abhis\source\repos\LineComparisonOops\LineComparisonOops\obj\Debug\net6.0\LineComparisonOops.genruntimeconfig.cache
+C:\Users\abhis\source\repos\LineComparisonOops\LineComparisonOops\obj\Debug\net6.0\ref\LineComparisonOops.dll
